@@ -1,0 +1,11 @@
+.rodape__link {
+    text-decoration: none;
+    color: #363636;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape__link {
+        font-size: 1.25em;
+    }
+}

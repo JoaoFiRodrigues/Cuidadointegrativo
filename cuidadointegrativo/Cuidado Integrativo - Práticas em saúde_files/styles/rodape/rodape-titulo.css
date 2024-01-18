@@ -1,0 +1,16 @@
+.rodape__titulo {
+    color: var(--verde);
+    margin: 0 0 0.5em 0;
+}
+
+@media screen and (min-width:1024px) {
+    .rodape__titulo {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape__titulo {
+        font-size: 2em;
+    }
+}

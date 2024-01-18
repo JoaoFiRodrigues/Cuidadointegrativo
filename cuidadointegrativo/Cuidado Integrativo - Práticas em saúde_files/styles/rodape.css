@@ -1,0 +1,14 @@
+.rodape {
+    background-color: var(--laranja);
+    padding: 0.7em 0;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

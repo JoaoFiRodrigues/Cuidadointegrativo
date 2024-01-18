@@ -1,0 +1,17 @@
+.conteudo__texto2 {
+    margin: 1.3em 0;
+    font-family: var(--fonte-secundaria);
+}
+
+@media screen and (min-width:1024px) {
+    .conteudo__texto2 {
+        text-align: start;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .conteudo__texto2 {
+        font-size: 1.25em;
+    }
+}

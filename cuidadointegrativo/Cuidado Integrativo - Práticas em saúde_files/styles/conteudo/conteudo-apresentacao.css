@@ -1,0 +1,11 @@
+.conteudo__apresentacao {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+@media screen and (min-width:1024px) {
+    .conteudo__apresentacao {
+        margin: 0 10em 0 0;
+    }
+}

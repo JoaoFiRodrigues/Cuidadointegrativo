@@ -1,0 +1,38 @@
+.apresentacao {
+    text-align: center;
+    padding: 1rem;
+}
+
+.apresentacao__texto {
+    color: var(--verde);
+    font-family: var(--fonte-principal);
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+strong {
+    color: rgb(201, 144, 38);
+}
+
+@media screen and (min-width:1024px) {
+    .apresentacao {
+        padding: 2em 10em;
+    }
+
+    .apresentacao__texto {
+        text-align: justify;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .apresentacao {
+        padding: 2em 15em;
+    }
+
+    .apresentacao__texto {
+        font-size: 1.25em;
+    }
+}

@@ -1,0 +1,26 @@
+.links {
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #363636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--verde);
+    border-radius: 0.5em;
+    margin: 0.5em 0em;
+    width: 55%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .links {
+        width: 20%;
+    }
+
+    .links:hover {
+        background: #ffc35c;
+        color: var(--verde);
+    }
+}

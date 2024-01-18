@@ -1,0 +1,16 @@
+.conteudo__texto {
+    font-family: var(--fonte-secundaria);
+}
+
+@media screen and (min-width:1024px) {
+    .conteudo__texto {
+        text-align: start;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .conteudo__texto {
+        font-size: 1.25em;
+    }
+}

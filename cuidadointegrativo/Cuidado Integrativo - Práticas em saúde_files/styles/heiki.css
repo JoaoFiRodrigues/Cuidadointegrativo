@@ -1,0 +1,18 @@
+.heiki {
+    text-align: center;
+}
+
+.heiki__titulo {
+    color: var(--verde);
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    transform: scaleY(1.2);
+}
+
+
+@media screen and (min-width:1024px) {
+    .heiki__titulo {
+        font-size: 2rem;
+    }
+}

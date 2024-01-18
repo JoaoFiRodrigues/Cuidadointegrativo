@@ -1,0 +1,20 @@
+.heiki__texto {
+    font-family: var(--fonte-principal);
+    font-size: 0.8em;
+    text-align: justify;
+    transform: scaleY(1.1);
+    padding: 2.5em 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .heiki__texto {
+        font-size: 1em;
+        margin: 0 4em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .heiki__texto {
+        padding: 2.5em 10em;
+    }
+}

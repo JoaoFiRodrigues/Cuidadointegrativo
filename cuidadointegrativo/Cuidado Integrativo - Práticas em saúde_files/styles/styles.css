@@ -1,0 +1,23 @@
+@import url(../styles/conteudo.css);
+@import url(../styles/conteudo/conteudo-texto.css);
+@import url(../styles/conteudo/conteudo-texto2.css);
+@import url(../styles/conteudo/conteudo-texto3.css);
+@import url(../styles/heiki.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-fundo: #f8ffcb;
+    --verde: #1b631a;
+    --cinza: #363636;
+    --laranja: #ffb532;
+    --fonte-principal: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonte-secundaria: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
